@@ -1,0 +1,6 @@
+{
+    "cacheBuster": {
+		"cacheBuster": "кеш Бъстър",
+        "cacheCleared": "Кешът е изчистено!"
+    }
+}

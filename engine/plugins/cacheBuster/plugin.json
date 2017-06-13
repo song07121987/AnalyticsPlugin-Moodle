@@ -1,0 +1,23 @@
+{
+    "name": "cacheBuster",
+    "version": "1.4.2",
+    "description": "Clears all temporary cache files",
+    "keywords": [
+        "cache",
+        "delete",
+        "tmp"
+    ],
+    "license": "GPL v3+",
+    "homepage": "https://github.com/JohnDeery/piwik_cache_buster",
+    "require": {
+        "piwik": ">=2.2.0",
+        "php": ">=5.3.0"
+    },
+    "authors": [
+        {
+            "name": "John Deery",
+            "email": "john.deery@gmail.com",
+            "homepage": "http://fractalice.com"
+        }
+    ]
+}

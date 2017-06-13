@@ -1,0 +1,6 @@
+{
+    "cacheBuster": {
+		"cacheBuster": "cacheBuster",
+        "cacheCleared": "緩存已被清除！"
+    }
+}

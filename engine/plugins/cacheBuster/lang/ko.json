@@ -1,0 +1,6 @@
+{
+    "cacheBuster": {
+		"cacheBuster": "캐시 우회",
+        "cacheCleared": "캐시는 삭제되었습니다!"
+    }
+}

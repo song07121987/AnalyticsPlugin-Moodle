@@ -1,0 +1,6 @@
+{
+    "cacheBuster": {
+		"cacheBuster": "cacheBuster",
+        "cacheCleared": "Der Cache wurde gelöscht!"
+    }
+}

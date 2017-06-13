@@ -1,0 +1,6 @@
+{
+    "cacheBuster": {
+		"cacheBuster": "cacheBuster",
+        "cacheCleared": "The cache has been cleared!"
+    }
+}

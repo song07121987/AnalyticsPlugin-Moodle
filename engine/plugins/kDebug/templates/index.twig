@@ -1,0 +1,26 @@
+{% extends 'admin.twig' %}
+
+{% block content %}
+<link href="/plugins/kDebug/stylesheets/bootstrap.min.css" rel="stylesheet">
+<link href="/plugins/kDebug/stylesheets/bootstrap-switch.css" rel="stylesheet">
+<script src="/plugins/kDebug/javascripts/jquery.min.js"></script>
+<script src="/plugins/kDebug/javascripts/bootstrap.min.js"></script>
+<script src="/plugins/kDebug/javascripts/bootstrap-switch.js"></script>
+
+<h2>{{ 'kDebug_Information'|translate }}</h2>
+<p>{{ 'kDebug_InformationDesc'|translate }}</p>
+<p>{{ 'kDebug_Detall'|translate }} <a href="{{'kDebug_DetallLink'|translate }}" target="blank">{{'kDebug_DetallAPI'|translate }}</a></p>
+<div style="max-width:980px;">
+
+<form id="kDebugToogle" method="GET">
+	<input type="checkbox" name="kDEBUG" {% if results['actiu']  %} checked {% endif %}>
+</form>
+
+<script>$("[name='kDEBUG']").bootstrapSwitch();</script>
+<script>$(".bootstrap-switch").click( function(){
+window.location.href=('/index.php?kDEBUG&'+window.location.search.substring(1));
+});</script>
+
+
+</div>
+{% endblock %}

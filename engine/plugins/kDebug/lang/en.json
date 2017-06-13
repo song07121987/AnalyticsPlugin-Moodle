@@ -1,0 +1,12 @@
+{
+    "kDebug": {
+        "PluginDescription": "Activate or deactivate DEBUG tracking mode with a simple click.",
+        "Result": "Resultat",
+        "Debug": "Debug",
+        "Information": "DEBUG tracking status",
+        "InformationDesc": "Activate or deactivate DEBUG tracking mode with a simple click.",
+        "Detall": "When DEBUG is ON, tracking requests will then output the tracking log messages rather than displaying a 1*1 transparent GIF beacon. See more info at ",
+        "DetallAPI": "Developer Docs",
+        "DetallLink": "http://developer.piwik.org/api-reference/tracking-api#debugging-the-tracker"
+    }
+}

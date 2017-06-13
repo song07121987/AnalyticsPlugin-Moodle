@@ -1,0 +1,6 @@
+{
+    "cacheBuster": {
+		"cacheBuster": "cacheBuster",
+        "cacheCleared": "La memòria cau s'ha esborrat!"
+    }
+}

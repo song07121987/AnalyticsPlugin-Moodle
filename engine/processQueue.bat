@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\PHP\v5.6\php" console queuedtracking:process

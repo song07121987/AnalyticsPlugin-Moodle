@@ -1,0 +1,19 @@
+{
+    "name": "kDebug",
+    "version": "0.1.2",
+    "description": "Activate or deactivate DEBUG tracking mode with a simple click.",
+    "keywords": ["debug","tracker"],
+    "license": "GPL v3+",
+    "homepage": "http://xaviertorello.cat",
+    "require": {
+        "piwik": ">=2.4.0-b1",
+        "php": ">=5.3.0"
+    },
+    "authors": [
+        {
+            "name": "Xavier Torelló",
+            "email": "info@xaviertorello.cat",
+            "homepage": "http://xaviertorello.cat"
+        }
+    ]
+}

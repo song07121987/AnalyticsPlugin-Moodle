@@ -1,0 +1,6 @@
+{
+    "cacheBuster": {
+		"cacheBuster": "izogibanje predpomnilnika",
+        "cacheCleared": "Cache je izbil!"
+    }
+}

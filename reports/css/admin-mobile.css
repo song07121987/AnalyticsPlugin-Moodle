@@ -1,0 +1,38 @@
+#maincontent {display: none;}
+.content-header>h1>small {
+    display: none;
+}
+.box-header {padding-left: 10px;}
+
+@media only screen and (max-width: 991px) {
+    #page-content {margin-top: 0;}
+    .content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .content-header {
+        padding: 0;
+    }
+    .content-header>h1 {
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+    .box-header .box-title {margin-right: 75px; line-height: 22px;}
+    .halfbox {
+        width: 100%;
+        padding: 0;
+    }
+    #reportrange {
+        float: left !important;
+        margin-bottom: 10px;
+    }
+    #server-perform-reportrange {
+        float: left !important;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .content-wrapper {
+        margin-top: 0 !important;
+    }
+}

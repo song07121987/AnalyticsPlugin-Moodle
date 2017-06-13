@@ -1,0 +1,6 @@
+{
+    "cacheBuster": {
+		"cacheBuster": "cachebuster",
+        "cacheCleared": "La memoria caché se ha borrado!"
+    }
+}

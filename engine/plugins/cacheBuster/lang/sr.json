@@ -1,0 +1,6 @@
+{
+    "cacheBuster": {
+		"cacheBuster": "против кеширања",
+        "cacheCleared": "Кеш је обрисана!"
+    }
+}

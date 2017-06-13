@@ -1,0 +1,1004 @@
+/*Global*/
+.adminbanner {
+  min-height : 142px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.adminheader {
+  display:block;
+  background: url(../../../theme/lntheme/images/bannerpack/administration-banner.jpg);
+  background-position: center;
+  padding: 39px 40px;
+  position:relative;
+  color:#fff;
+}
+.adminheader  h1 {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  font-size: 40px;
+  font-weight: 500;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.40);
+}
+
+.admin-user-content-header h3 {
+  padding-top: 0;
+  margin-top: 0;
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.admin-main-content-heading h3 {
+  padding-top: 0;
+  margin-top: 0;
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* Left Menu */
+.user-menu-list .users-menu-area {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  width: 100%;
+}
+.user-menu-list .users-menu-area .user-menu-area-head {
+  background-color: #1f5a84;
+  overflow: hidden;
+  width: 100%;
+}
+.user-menu-list .users-menu-area .user-menu-area-head h4 {
+  padding-left: 25px;
+  color: #ffffff;
+}
+.user-menu-list .users-menu-area nav {
+  background-color: #efe8eb;
+}
+.user-menu-list .users-menu-area nav li {
+  list-style-type: none;
+  padding-top: 15px;
+}
+.user-menu-list .users-menu-area nav li:last-child {
+  padding-bottom: 15px;
+}
+.user-menu-list .users-menu-area nav li a {
+  color: #333333;
+  font-size: 14px;
+}
+.user-menu-list .users-menu-area nav li:hover > a {
+  font-weight: bold;
+}
+
+/* Forms */
+.admin-form h2 {
+	font-size: 24px;
+	line-height: 28px;
+	margin-top: 10px;
+}
+.admin-form fieldset {
+	width:100%;
+}
+.admin-form .fitemtitle{
+  width: 180px !important;
+}
+.admin-form .fitem fieldset.felement>span>label {
+  width: auto;
+  top: 0px;
+}
+.admin-form .fitem fieldset.felement>span {
+  display : inline-block;
+}
+.admin-form .felement{
+  width: 60%;
+  float: left;
+  margin-left: 30px;
+}
+.admin-form select {
+  padding: 0px 0px 2px 3px;
+}
+.admin-form .fstaticlabel {
+  font-size:14px;
+}
+
+/* Datatables */
+.user-database table.dataTable {
+    width: 100%;
+    border: 0;
+    table-layout: auto;
+    word-wrap:break-word;
+    border-collapse:collapse;
+}
+.user-database table.dataTable th {
+  color: #ffffff;
+  padding-left: 10px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+.user-database table.dataTable thead {
+  background-color: #1f5a84;
+  margin-right: 15px;
+}
+.table-bordered thead:first-child tr:first-child>th:first-child {
+	-webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+}
+.table-bordered tbody:last-child tr:last-child>td:first-child {
+	-webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+}
+.table-bordered thead:first-child tr:first-child>th:last-child {
+	-webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-topright: 0;
+}
+.table-bordered tbody:last-child tr:last-child>td:last-child {
+	-webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+}
+table.dataTable.display tbody tr.odd>.sorting_1,
+table.dataTable.display tbody tr.even>.sorting_1 {
+	background-color: #efe8eb;
+}
+.user-database table.dataTable tr th {
+	border: 2px solid #FFFFFF;
+	border-bottom: 2px solid #FFffff;
+}
+.user-database table.dataTable tr td {
+	border: 2px solid #FFFFFF;
+}
+.user-database table.dataTable tr:nth-child(odd) td {
+  background-color: #efe8eb;
+}
+.user-database table.dataTable tr:nth-child(even) td {
+  background-color: #efe8eb;
+}
+.user-database table.dataTable tr .wrap_class {
+	width: 30%;
+}
+.user-database table.dataTable tr .wrap_class a {
+	color: #000000;
+	display: block;
+	overflow: auto;
+}
+.user-database table.dataTable tr form button.resetbtn {
+	background-color: #34a7e0;
+	background-image: none;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 0;
+	text-shadow: none;
+	box-shadow: none;
+}
+.user-database table.dataTable tr form button img {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.user-database table.dataTable tr form button span {
+	text-align: center;
+	color: #FFFFFF;
+	vertical-align: middle;
+}
+.user-database table.dataTable tr form button.unlockbtn {
+	background-color: #34a7e0;
+	background-image: none;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 0;
+	text-shadow: none;
+	box-shadow: none;
+}
+.user-database table.dataTable tr form button:hover {
+	background-color: #0038A8;
+}
+.ms-res.ctn .dropdown-menu {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+.selectAll-checkbox {
+	position: relative;
+	display: block;
+	padding: 0 10px;
+}
+.selectAll-checkbox input {
+	margin-right: 5px;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+.selectAll-checkbox span.480hide {
+	font-size: 18px;
+	font-weight: 500;
+	vertical-align: middle;
+}
+/* Statistics */
+.statistics-details {
+	position: relative;
+	display: block;
+	padding: 0;
+	margin: 0 auto;
+}
+.admin-db-stat-data {
+  background-color: #efe8eb;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+  margin-bottom: 20px;
+}
+.admin-db-stat-data .db-icon {
+  position: relative;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+}
+.admin-db-stat-data .db-inner {
+	position: relative;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+}
+.admin-db-stat-data .db-inner h3{
+  margin-top: 0px;
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.admin-db-stat-data .db-inner h5{
+  margin-top: 0px;
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 22px;
+  margin-bottom: 0;
+  padding: 0 10px;
+  min-height: 45px;
+  max-height: 45px;
+  vertical-align: middle;
+}
+.admin-db-stat-data .admin-db-footer {
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+  display: block;
+  min-height: 45px;
+  max-height: 45px;
+  background: #585858;
+  vertical-align: middle;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.form-control .ms-trigger .ms-trigger-ico {
+	margin-top: 19px;
+}
+.form-control .ms-res-ctn.dropdown-menu {
+	background-color: #FFFFFF;
+	border-color: #DDDDDD;
+	padding: 0;
+	margin: 0 auto;
+}
+
+/*==================================================================================================
+========================================== admin-unit.html =========================================
+====================================================================================================*/
+.create-unit-menu-data .create-unit-data-input textarea {
+  width: 100%;
+}
+/*==================================================================================================
+========================================== admin-manageunit.html ====================================
+====================================================================================================*/
+.admin-manage-unit-data p {
+  padding: 10px 15px;
+}
+.admin-manage-unit-data h4 {
+  font-size: 16px;
+}
+.admin-manage-unit-data form {
+  padding-bottom: 10px;
+}
+.admin-manage-unit-data .manage-unit-add-user-btn {
+  text-align: center;
+}
+.admin-manage-unit-data .manage-unit-add-user-btn a {
+  background-color: #34a6e0;
+  border-radius: 5px;
+  display: inline-block;
+  color: #ffffff;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+#admin-manage-unit-table,
+#assign-user-course-run-table,
+#assign-manage-unit-table {
+  width: 100%;
+  padding-top: 5px;
+}
+#admin-manage-unit-table .manage-unit-select-remove,
+#assign-user-course-run-table .manage-unit-select-remove,
+#assign-manage-unit-table .manage-unit-select-remove {
+  text-align: center;
+}
+#admin-manage-unit-table .manage-unit-select-remove a,
+#assign-user-course-run-table .manage-unit-select-remove a,
+#assign-manage-unit-table .manage-unit-select-remove a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+#admin-manage-unit-table .manage-unit-select-remove > span,
+#assign-user-course-run-table .manage-unit-select-remove > span,
+#assign-manage-unit-table .manage-unit-select-remove > span {
+  display: block;
+}
+#admin-manage-unit-table .manage-unit-select-remove a span,
+#assign-user-course-run-table .manage-unit-select-remove a span,
+#assign-manage-unit-table .manage-unit-select-remove a span {
+  color: #2c3b42;
+}
+#admin-manage-unit-table tr td:last-child,
+#assign-user-course-run-table tr td:last-child,
+#assign-manage-unit-table tr td:last-child,
+#admin-manage-unit-table tr td:nth-child(3),
+#assign-user-course-run-table tr td:nth-child(3),
+#assign-manage-unit-table tr td:nth-child(3) {
+  text-align: center;
+}
+.manage-goback-remove-btn {
+  width: 100%;
+  padding-top: 40px;
+}
+.manage-goback-remove-btn a {
+  padding: 5px 12px 7px 12px;
+  background-color: #34a7e0;
+  text-decoration: none;
+  color: #ffffff;
+}
+.manage-goback-remove-btn a:hover {
+  color: #ffffff;
+  background-color: #0038a8;
+}
+.manage-goback-remove-btn a:first-child {
+  float: left;
+}
+.manage-goback-remove-btn a:last-child {
+  float: right;
+}
+/*==================================================================================================
+========================================== admin-viewmeta.html =====================================
+====================================================================================================*/
+.view-meta-course-data {
+  padding-left: 35px;
+}
+.view-meta-course-data table {
+  width: 100%;
+}
+.view-meta-course-data table td {
+  font-size: 16px;
+  padding-bottom: 14px;
+  vertical-align: top;
+}
+.view-meta-course-data table tr td:first-child {
+  width: 35%;
+  font-weight: bold;
+}
+.view-meta-course-data table .view-meta-edit-opts td {
+  padding-top: 15px;
+}
+.view-meta-course-data table .view-meta-edit-opts a {
+  padding: 5px 8px;
+  color: #ffffff;
+  background-color: #34a6e0;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.view-meta-course-data table .view-meta-edit-opts a:hover {
+  color: #2c3b42;
+}
+#fitem_id_birthday fieldset.fdate_selector a.visibleifjs {
+	background-color: transparent;
+}
+input[type="submit"][disabled] {
+	background-color: #E6E6E6 !important;
+}
+input[type="submit"][disabled]:hover {
+	color: #333333;
+}
+/*==================================================================================================
+========================================== admin-createmeta.html ====================================
+====================================================================================================*/
+.edit-meta-course-input .control-label {
+  padding-top: 0;
+}
+.edit-meta-course-input textarea {
+  width: 100%;
+}
+/*==================================================================================================
+========================================== admin-searchmeta.html ====================================
+====================================================================================================*/
+#search-meta-course-data-table {
+  padding-top: 20px;
+}
+/*==================================================================================================
+=========================================== admin-course.html ======================================
+====================================================================================================*/
+#admin-course-run-table tr td {
+  vertical-align: top;
+}
+#admin-course-run-table td a img {
+  width: 25px;
+  height: 25px;
+}
+/*==================================================================================================
+=========================================== admin-searchcr.html =====================================
+====================================================================================================*/
+#admin-search-course-run-table {
+  padding-top: 15px;
+}
+/*==================================================================================================
+=========================================== admin-audit.html ======================================
+====================================================================================================*/
+.audit-event-date {
+  font-size: 16px;
+}
+.audit-event-date label,
+.audit-event-date select,
+.audit-event-date input {
+  display: table;
+}
+.audit-event-date label {
+  width: 150px;
+  font-weight: 500;
+}
+.audit-event-date .saudit-start-date input,
+.audit-event-date .saudit-end-date input {
+	line-height: 14px;
+}
+
+.audit-event-date .search-audit-event {
+  padding-bottom: 15px;
+}
+.audit-event-date .search-audit-event select {
+  width: 300px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.audit-event-date .search-audit-date {
+  padding-bottom: 35px;
+}
+.audit-event-date .search-audit-date input[type="date"] {
+  width: 300px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
+}
+.audit-event-date .search-audit-date .search-audit-btn {
+  margin-top: 10px;
+  padding: 4px 127px;
+  background-color: #34a6e0;
+  border: 1px solid #34a6e0;
+  color: #ffffff;
+}
+.audit-event-date .search-audit-date .search-audit-btn:hover {
+  color: #2c3b42;
+}
+.search-audit-data-table {
+  padding-left: 0;
+  padding-right: 0;
+}
+.search-audit-data-table table {
+  width: 100%;
+}
+.search-audit-data-table table .sa-si-no {
+  width: 10%;
+}
+.search-audit-data-table table .sa-date {
+  width: 10%;
+}
+.search-audit-data-table table .sa-category {
+  width: 12%;
+}
+.search-audit-data-table table .sa-event {
+  width: 10%;
+}
+.search-audit-data-table table .sa-audit-by {
+  width: 12%;
+}
+.search-audit-data-table table .sa-message {
+  width: 46%;
+}
+/*==================================================================================================
+======================================== user-resetpasswd.php ======================================
+====================================================================================================*/
+#user-reset-password-table {
+  padding-top: 25px;
+}
+#user-reset-password-table tr th:nth-child(1) {
+  width: 32%;
+}
+#user-reset-password-table tr th:nth-child(2) {
+  width: 33%;
+}
+#user-reset-password-table tr th:nth-child(3) {
+  width: 12%;
+}
+#user-reset-password-table tr th:nth-child(4) {
+  width: 23%;
+}
+#user-reset-password-table .reset-pass-btn {
+  color: #ffffff;
+  background-color: #34a6e0;
+  padding: 4px 15px 5px 15px;
+}
+#user-reset-password-table .reset-pass-btn:hover {
+  color: #2c3b42;
+}
+#user-reset-password-table_info,
+#manage-lockout-table_info,
+#search-user-data-table_info {
+  display: none;
+}
+#user-reset-password-table_paginate,
+#manage-lockout-table_paginate,
+#search-user-data-table_paginate {
+  display: none;
+}
+/*==================================================================================================
+====================================== user-bulkresetpasswd.php ====================================
+====================================================================================================*/
+.user-reset-bulk-pass-area {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+#bulk-reset-pass-file-name,
+#bulk-reset-pass-file-name + p,
+#bulk-lockout-file-name,
+#bulk-lockout-file-name + p,
+#user-upload-file-name,
+#user-upload-file-name + p {
+  color: #ff3333;
+}
+/*==================================================================================================
+======================================== user-lockout.php ======================================
+====================================================================================================*/
+#manage-lockout-table {
+  padding-top: 25px;
+}
+#manage-lockout-table tr th:nth-child(1) {
+  width: 26%;
+}
+#manage-lockout-table tr th:nth-child(2) {
+  width: 25%;
+}
+#manage-lockout-table tr th:nth-child(3) {
+  width: 12%;
+}
+#manage-lockout-table tr th:nth-child(4) {
+  width: 12%;
+}
+#manage-lockout-table tr th:nth-child(5) {
+  width: 25%;
+}
+/*==================================================================================================
+======================================== user-removeroles.php ======================================
+====================================================================================================*/
+.user-remove-roles-table-heading {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#user-remove-roles-table tr th:nth-child(1) {
+  width: 40%;
+}
+#user-remove-roles-table tr th:nth-child(2) {
+  width: 40%;
+}
+#user-remove-roles-table tr th:nth-child(3) {
+  width: 20%;
+}
+/*==================================================================================================
+============================================= units.php ============================================
+====================================================================================================*/
+.admin-different-data-table .unit-action-options img {
+  width: 25px;
+  height: 25px;
+}
+/*==================================================================================================
+=========================================== unit-add.php ===========================================
+====================================================================================================*/
+.required-field {
+  color: #ff3333;
+  font-size: 10px;
+}
+a.unit-create-btn {
+  width: 100%;
+  display: block;
+}
+.create-unit-data-input textarea {
+  width: 100%;
+}
+#unit-search-data-table {
+  padding-top: 20px;
+}
+
+form { display: inline; }
+
+/*admin-response.css*/
+
+@media only screen and (max-width: 680px) {
+  .adminbanner .contentnav {
+    display: none;
+  }
+}
+/*==================================================================================================
+=========================================  admin-users.html ========================================
+====================================================================================================*/
+@media only screen and (max-width: 1780px) {
+  #fitem_id_userid .felement input,
+  #fitem_id_fullname .felement input,
+  #fitem_id_unit .felement input {
+    width: 100%;
+  }
+  table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before,
+  table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before {
+    top: 8px;
+  }
+  table.dataTable.dtr-inline.collapsed>tbody>tr>td a {
+    margin-left: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .admin-user-banner {
+    padding: 0 0 0 15px;
+    min-height: 80px;
+  }
+  .admin-user-banner .admin-user-header {
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-right: 0;
+  }
+  .admin-user-banner .admin-user-header h1 {
+    font-size: 20px;
+  }
+  .admin-user-content-header {
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-top: 20px;
+  }
+  .admin-user-content-header .admin-main-content-heading h3 {
+    font-size: 20px;
+  }
+  .admin-user-content-header .admin-user-breadcrumb .breadcrumb {
+    float: left;
+  }
+  .admin-user-content {
+    padding-right: 10px;
+    padding-left: 15px;
+  }
+  .user-menu-list {
+    padding-left: 0px;
+    padding-top: 5px;
+  }
+  .user-database {
+    padding-left: 0px;
+    padding-right: 0;
+  }
+  .user-database table.dataTable .user-action-options img {
+    width: 20px;
+    height: 20px;
+    line-height: 20;
+  }
+  .user-database table.dataTable tr td:last-child {
+    word-wrap: break-word;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .admin-user-banner {
+    padding: 0 25px;
+    min-height: 100px;
+  }
+  .admin-user-banner .admin-user-header {
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+  .admin-user-banner .admin-user-header h1 {
+    font-size: 25px;
+  }
+  .admin-user-content-header {
+    padding-right: 15px;
+    padding-left: 5px;
+    padding-top: 20px;
+  }
+  .admin-user-content-header .admin-main-content-heading h3 {
+    font-size: 22px;
+  }
+  .admin-user-content-header .admin-user-breadcrumb .breadcrumb {
+    float: left;
+  }
+  .admin-user-content {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .user-menu-list {
+    float: left;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 8px;
+  }
+  .user-database {
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #fitem_id_userid .felement input,
+  #fitem_id_fullname .felement input,
+  #fitem_id_unit .felement input {
+    width: 100%;
+  }
+  .user-database table.dataTable .user-action-options img {
+    width: 30px;
+    height: 30px;
+    line-height: 30;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .admin-user-content-header {
+    padding-top: 0;
+  }
+  #fitem_id_userid .felement input,
+  #fitem_id_fullname .felement input,
+  #fitem_id_unit .felement input {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .admin-different-data-table th:first-child {
+    width: 65%;
+  }
+  .admin-different-data-table th:nth-child(2) {
+    width: 25%;
+  }
+}
+/* <- ============================================================
+        Only For Data Table when screen is less then 500px
+============================================= -> */
+.admin-different-data-table li span.dtr-data img {
+  width: 22px;
+  height: 22px;
+}
+/*==================================================================================================
+======================================= admin-dashboard.html ======================================
+====================================================================================================*/
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .admin-db-content {
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-left: 15px;
+  }
+  .admin-db-statistics .admin-db-stat-menu {
+    padding-bottom: 8px;
+  }
+  .statistics-details {
+    padding-left: 5px;
+    padding-right: 0;
+  }
+  .statistics-details .admin-db-stat-area {
+    padding: 40px 10px 20px 0px;
+  }
+  .statistics-details .admin-db-stat-area .admin-db-stat-data {
+    margin-bottom: 30px;
+    padding-top: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .admin-right {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .admin-db-content {
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-left: 15px;
+  }
+  .admin-db-statistics .admin-db-stat-menu {
+    padding-bottom: 8px;
+  }
+  .statistics-details .admin-db-stat-area .admin-db-stat-data {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 30px;
+    padding-top: 10px;
+  }
+}
+/*==================================================================================================
+======================================= admin-createuser.html ======================================
+====================================================================================================*/
+@media only screen and (max-width: 768px) {
+  .create-user-data-input {
+    padding-left: 5px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .admin-form .felement {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+/*==================================================================================================
+======================================== admin-viewuser.html =======================================
+====================================================================================================*/
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .view-user-data {
+    padding-left: 5px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .view-user-data {
+    padding-left: 10px;
+  }
+  .view-user-data table td {
+    padding-bottom: 12px;
+    display: block;
+  }
+  .view-user-data table tr td:first-child {
+    padding-bottom: 0px;
+    width: 100%;
+  }
+  .view-user-data .view-user-data-edit a {
+    padding: 4px 6px;
+    font-size: 11px;
+  }
+}
+/*==================================================================================================
+========================================== admin-unit.html =========================================
+====================================================================================================*/
+@media only screen and (max-width: 991px) {
+  .create-unit-menu-data .create-unit-menu-area {
+    padding-bottom: 15px;
+  }
+  .create-unit-menu-data .create-unit-data-input {
+    padding-top: 15px;
+  }
+}
+/*==================================================================================================
+======================================= admin-listunits.html =======================================
+====================================================================================================*/
+@media only screen and (max-width: 991px) {
+  .list-unit-menu-database .list-unit-menu-area {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+}
+/*==================================================================================================
+========================================== admin-manageunit.html ====================================
+====================================================================================================*/
+@media only screen and (max-width: 768px) {
+  .manage-unit-add-user-btn {
+    margin-top: 5px;
+  }
+  .manage-goback-remove-btn {
+    padding-top: 30px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  #admin-manage-unit-table tr td:last-child {
+    text-align: left;
+  }
+  #admin-manage-unit-table input[type=checkbox] {
+    vertical-align: bottom;
+    display: inline-block;
+  }
+}
+/*==================================================================================================
+======================================== admin-meta-course.html ====================================
+====================================================================================================*/
+@media only screen and (max-width: 991px) {
+  .meta-course-menu-data .meta-course-menu {
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+  }
+}
+/*==================================================================================================
+========================================== admin-viewmeta.html =====================================
+====================================================================================================*/
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .view-meta-course-data {
+    padding-left: 5px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .view-meta-course-data {
+    padding-left: 0;
+  }
+  .view-meta-course-data table td {
+    display: block;
+  }
+  .view-meta-course-data table tr td:first-child {
+    padding-bottom: 0px;
+    width: 100%;
+  }
+  .view-meta-course-data table .view-meta-edit-opts td {
+    padding-top: 10px;
+  }
+  .view-meta-course-data table .view-meta-edit-opts a {
+    font-size: 12px;
+  }
+}
+/*==================================================================================================
+========================================== admin-createmeta.html ====================================
+====================================================================================================*/
+@media only screen and (max-width: 991px) {
+  .edit-meta-course-menu-list .edit-meta-course-menu {
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+  }
+}
+/*==================================================================================================
+=========================================== admin-audit.html ======================================
+====================================================================================================*/
+@media only screen and (max-width: 768px) {
+  .audit-event-date {
+    padding-left: 5px;
+  }
+  .audit-event-date label,
+  .audit-event-date select,
+  .audit-event-date input {
+    display: block;
+  }
+  .audit-event-date .search-audit-date .search-audit-btn {
+    margin-top: 7px;
+    margin-left: 0;
+  }
+  .audit-event-date .search-audit-event {
+    padding-bottom: 15px;
+  }
+  .audit-event-date .search-audit-event select {
+    width: 220px;
+  }
+  .audit-event-date .search-audit-date input[type="date"] {
+    width: 220px;
+  }
+  .audit-event-date .search-audit-date .search-audit-btn {
+    padding: 4px 87px;
+  }
+}
+/*==================================================================================================
+=========================================== user-passwd.php ========================================
+====================================================================================================*/
+@media only screen and (max-width: 500px) {
+  .user-password-data-input {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .user-password-data-input h4 {
+    font-size: 16px;
+  }
+}
+
+
+table.admin-different-data-table2 {
+  padding-bottom: 10px;
+}
+
+th.data-table-status{
+  width: 60px;
+}
+@media only screen and (max-width: 480px) {
+  .admin-db-stat-area div {
+    width: 100%;
+  }
+  span.480hide {
+            display: none;
+          }
+}

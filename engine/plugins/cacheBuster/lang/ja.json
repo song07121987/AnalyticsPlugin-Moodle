@@ -1,0 +1,6 @@
+{
+    "cacheBuster": {
+		"cacheBuster": "キャッシュ消去",
+        "cacheCleared": "キャッシュがクリアされました！"
+    }
+}

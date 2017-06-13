@@ -1,0 +1,6 @@
+{
+    "cacheBuster": {
+		"cacheBuster": "Önbellek engelleme",
+        "cacheCleared": "Önbellek temizlendi!"
+    }
+}

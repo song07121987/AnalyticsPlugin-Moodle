@@ -1,0 +1,6 @@
+{
+    "cacheBuster": {
+		"cacheBuster": "buffereliminering",
+        "cacheCleared": "Bufferen er ryddet!"
+    }
+}
